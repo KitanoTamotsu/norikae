@@ -1,0 +1,2 @@
+# norikae
+Alfred workflow
