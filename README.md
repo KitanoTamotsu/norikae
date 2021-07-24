@@ -47,7 +47,7 @@ if [ ${arr[3]} ]; then
 <br>　URL欄には{query}だけを記載します
 <br>　
 <br>　RunScript
-<br>　<img width="600" alt="スクリーンショット 2021-07-24 12 01 11" src="https://user-images.githubusercontent.com/40127279/126855688-435aa5e2-9c6c-45fc-9c64-ae966a517161.png">
+<br>　<img width="600"  src="https://user-images.githubusercontent.com/40127279/126855688-435aa5e2-9c6c-45fc-9c64-ae966a517161.png">
 
 #### 背景
 　今回は複数パラメータに挑戦してみました
