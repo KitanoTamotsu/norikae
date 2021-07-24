@@ -1,5 +1,8 @@
 ## 　　Lesson5.　複数のパラメータを利用する 
 #### 開発メモ
+ワークフロー
+<br><img width="600" src="https://user-images.githubusercontent.com/40127279/126855661-db2256c7-bfd3-4c8c-bc3d-3bb1d03bb9df.png">
+
 ### 1.検索結果のURLを解析する
 　とりあえずジョルダンの乗換案内で色々試して解析　
 <br>　　&eki1=出発駅（駅の文字は不要、％エンコードなし）
@@ -42,6 +45,10 @@ if [ ${arr[3]} ]; then
 <br>　あとはOpen URLの受け渡してアクセしします
 <br>　Httpsから始まる全体のURLをechoしていますので、後続フローのOpenURLの
 <br>　URL欄には{query}だけを記載します
+<br>　
+<br>　RunScript
+<br>　<img width="600" alt="スクリーンショット 2021-07-24 12 01 11" src="https://user-images.githubusercontent.com/40127279/126855688-435aa5e2-9c6c-45fc-9c64-ae966a517161.png">
+
 #### 背景
 　今回は複数パラメータに挑戦してみました
 <br>　split arg to valsを目論んでいたのですが、敢えなく失敗
